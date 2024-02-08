@@ -26,6 +26,8 @@ function updateDisplay(input)
         {
             result.innerText="";
             result.innerText=input;
+          
+           
         }
     }
     else 
@@ -42,7 +44,7 @@ function updateDisplay(input)
         {
             result.innerText="0";
         }
-        if(input !="C" && input!="DEL" && input!="=")
+        if(input !="C" && input!="DEL" && input!= "=")
         {
             result.innerText+=input;
         }
